@@ -21,7 +21,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id="contactMain">
         <article id="contactText">
         <h3>Contact</h3>
             <p>Thank you for taking your time to visit my website.<br>
@@ -31,24 +31,37 @@
         <article id="emailContainer">
             <h4>Email Me</h4>
 
-            <label for="emailName">Name</label>
-            <input id="emailName">
+            <div class="emailDiv">
+                <label for="emailName">Name</label>
+                <input id="emailName">
+            </div>
+            
+            <div class="emailDiv">
+                <label for="email">Email</label>
+                <input id="email">
+            </div>
 
-            <label for="email">Email</label>
-            <input id="email">
+            <div class="emailDiv">
+                <label for="emailMessage">Message</label>
+                <input id="emailMessage">
+            </div>
 
-            <label id="emailMessage">Message</label>
-            <input id="emailMessage">
+            <button>Submit</button>
         </article>
 
         <article id="contactImg">
-            <img class="contactImgs" src="images/linkedin.svg">
-            <img class="contactImgs" src="images/github.svg">
+            <a target="_blank" target="_blank"><img class="contactImgs" src="images/linkedin.svg"></a>
+            <a target="_blank" target="_blank" href="https://github.com/LimboLam"><img class="contactImgs" src="images/github.svg"></a>
+        </article>
+
+        <article id="contactPhone">
+            <img src="images/phone.svg" id="phoneImg">
+            <p>(559)575-1943</p>
         </article>
     </main>
 
-    <footer>
-        <p>2025 Liam Xiong</p>
+    <footer id="contactFooter">
+        <p id="footerText">2025 Liam Xiong</p>
     </footer>
 </body>
 </html>
