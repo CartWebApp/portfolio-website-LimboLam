@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Liter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>Liam Xiong</title>
 </head>
 <body>
     <header>
-        <a  href="index.html"><h1>Liam Xiong</h1></a>
+        <a href="index.html" id="homeLink"><h1>Liam Xiong</h1></a>
         <nav>
-            <div class="menu" id="menu">
-                <a href="about-me.html">About Me</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
-            </div>
+            <a href="about-me.html">About Me</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <main id="indexMain">
-    <img src="images/self-photo.svg" id="selfPhoto">
-    <article id="indexText"></article>
-        <p>Welcome to my portfolio, use the menu at the top right to check out what I’ve done.</p>
-        <p>I am a web developer who has made a couple websites and have a little bit of work experience. I can manage my time well between work and my personal life and can work well as a teammate. I would say I am pretty sufficient in HTML & CSS.</p>
-    </article>
+        <img src="images/self-photo.svg" id="selfPhoto">
+        <article id="indexText">
+            <h3>Hi, I’m Liam Xiong</h3>
+            <p>Welcome to my portfolio, use the menu at the top right to check out what I’ve done.</p>
+            <p>I am a web developer who has made a couple websites and have a little bit of work experience. I can manage my time well between work and my personal life and can work well as a teammate. I would say I am pretty sufficient in HTML & CSS.</p>
+        </article>
     </main>
 
     <footer>
-        <p>2025 Liam Xiong</p>
+        <p id="footerText">2025 Liam Xiong</p>
     </footer>
 </body>
 </html>

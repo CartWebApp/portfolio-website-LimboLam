@@ -1,0 +1,166 @@
+.liter-regular {
+    font-family: "Liter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fira-sans-condensed-regular {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    color: white;
+    text-decoration: none;
+    font-family: "Liter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+body {
+    background: #192E59;
+    margin-top: 6vh;
+    height: 94vh;
+}
+
+header {
+    background: #624873;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 107px;
+    padding: 1%;
+    width: 80vw;
+    position: relative;
+    left: 8vw;
+}
+
+p {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.7rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 32vw;
+    position: relative;
+    right: 2vw;
+}
+
+a {
+    font-size: 2rem;
+}
+
+#homeLink {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 3vw;
+}
+
+h1, h3 {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+main {
+    display: flex;
+}
+
+#indexMain {
+    margin-top: 6vh;
+}
+
+#indexText {
+    display: flex;
+    flex-direction: column;
+    width: 56vw;
+    position: relative;
+    left: 16vw;
+    justify-content: space-between;
+    height: 44vh;
+}
+
+#aboutMain {
+    display: flex;
+    flex-direction: column;
+    width: 78vw;
+    position: relative;
+    left: 12vw;
+    margin-top: 6vh;
+    justify-content: space-between;
+    height: 33vh;
+}
+
+#portfolioMain {
+    flex-direction: column;
+    width: 78vw;
+    position: relative;
+    left: 12vw;
+}
+
+#personalMain {
+    flex-direction: column;
+    width: 78vw;
+    position: relative;
+    left: 12vw;
+}
+
+#portfolioSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 74vw;
+}
+
+.portfolioArticle {
+    background: #395BBF;
+    padding: 0.5%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 42vh;
+}
+
+.portfolioImg {
+    width: 22vw;
+    border-radius: 50px;
+}
+
+#selfPhoto {
+    position: relative;
+    left: 8vw;
+    width: 38vh;
+}
+
+footer {
+    background: #09101E;
+    height: 13vh;
+    position: relative;
+    bottom: -11.4vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#footerText {
+    width: fit-content;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+}
+
+#aboutFooter {
+    bottom: -28.8vh;
+}
+
+#portfolioFooter {
+    bottom: -10.4vh;
+}
