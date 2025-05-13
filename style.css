@@ -69,7 +69,7 @@ a {
 }
 
 #homeLink:hover {
-    background-color: #523c61;;
+    background-color: #745489;;
 }
 
 h1, h3 {
@@ -352,7 +352,6 @@ button {
 
 /* Menu */
 
-/* The sidebar menu */
 .side-menu {
     height: 30%;
     padding-bottom: 70%;
@@ -368,8 +367,7 @@ button {
     flex-direction: column;
 }
 
-  /* Menu links */
-  .side-menu a {
+.side-menu a {
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
@@ -382,12 +380,11 @@ button {
     font-size: 1.7rem;
 }
 
-  .side-menu a:hover {
+.side-menu a:hover {
     background-color: #575757;
 }
 
-  /* Close button */
-  .close-btn {
+.close-btn {
     position: absolute;
     top: 20px;
     right: 25px;
@@ -396,8 +393,7 @@ button {
     cursor: pointer;
 }
 
-  /* Button to open menu */
-  .open-btn {
+.open-btn {
     font-size: 3rem;
     cursor: pointer;
     background-color: transparent;
@@ -409,5 +405,5 @@ button {
 }
 
   .open-btn:hover {
-    background-color: #523c61;
+    background-color: #745489;
 }
