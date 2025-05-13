@@ -192,6 +192,12 @@ footer {
     align-items: flex-end;
 }
 
+#footerNav {
+    position: relative;
+    right: 52vw;
+    bottom: 4vh;
+}
+
 #footerText {
     width: fit-content;
     margin-right: 1vw;
@@ -296,7 +302,7 @@ button {
 }
 
 #resumeFooter {
-    bottom: -16.5vh;
+    bottom: -19.8vh;
 }
 
 #resumeLink {
@@ -325,5 +331,5 @@ button {
 }
 
 #writingFooter {
-    bottom: -11.3vh;
+    bottom: -11.9vh;
 }
