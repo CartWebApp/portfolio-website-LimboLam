@@ -14,7 +14,10 @@
 <body>
     <header>
         <a href="index.html" id="homeLink"><h1>Liam Xiong</h1></a>
-        <nav>
+        <button class="open-btn" onclick="openMenu()">☰</button>
+
+        <nav id="mySideMenu" class="side-menu">
+            <span class="close-btn" onclick="closeMenu()">&times;</span>
             <a href="about-me.html">About Me</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="projects.html">Projects</a>

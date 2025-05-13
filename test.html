@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Side Menu Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* The sidebar menu */
+    .side-menu {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+    }
+
+    /* Menu links */
+    .side-menu a {
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+      transition: 0.2s;
+    }
+
+    .side-menu a:hover {
+      background-color: #575757;
+    }
+
+    /* Close button */
+    .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 25px;
+      font-size: 36px;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* Button to open menu */
+    .open-btn {
+      font-size: 20px;
+      cursor: pointer;
+      background-color: #111;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+    }
+
+    .open-btn:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Button to open the side menu -->
+<button class="open-btn" onclick="openMenu()">☰ Open Menu</button>
+
+<!-- Side menu -->
+<div id="mySideMenu" class="side-menu">
+  <span class="close-btn" onclick="closeMenu()">&times;</span>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</div>
+
+<script>
+  function openMenu() {
+    document.getElementById("mySideMenu").style.width = "250px";
+  }
+
+  function closeMenu() {
+    document.getElementById("mySideMenu").style.width = "0";
+  }
+</script>
+
+</body>
+</html>

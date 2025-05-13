@@ -54,12 +54,22 @@ nav {
 
 a {
     font-size: 2rem;
+    transition: 0.2s;
+}
+
+ nav a:hover {
+    background-color: #575757;
 }
 
 #homeLink {
     font-size: 2rem;
     font-weight: bold;
     margin-left: 3vw;
+    transition: 0.2s;
+}
+
+#homeLink:hover {
+    background-color: #523c61;;
 }
 
 h1, h3 {
@@ -86,7 +96,7 @@ main {
 #indexText {
     display: flex;
     flex-direction: column;
-    width: 56vw;
+    width: 47vw;
     position: relative;
     left: 16vw;
     justify-content: space-between;
@@ -96,7 +106,7 @@ main {
 #aboutMain {
     display: flex;
     flex-direction: column;
-    width: 78vw;
+    width: 77vw;
     position: relative;
     left: 12vw;
     margin-top: 6vh;
@@ -196,6 +206,12 @@ footer {
     position: relative;
     right: 52vw;
     bottom: 4vh;
+}
+
+#footerNav a {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #footerText {
@@ -332,4 +348,66 @@ button {
 
 #writingFooter {
     bottom: -11.9vh;
+}
+
+/* Menu */
+
+/* The sidebar menu */
+.side-menu {
+    height: 30%;
+    padding-bottom: 70%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #09101E;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+  /* Menu links */
+  .side-menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.2s;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7rem;
+}
+
+  .side-menu a:hover {
+    background-color: #575757;
+}
+
+  /* Close button */
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+}
+
+  /* Button to open menu */
+  .open-btn {
+    font-size: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    left: -1vw;
+    transition: 0.2s;
+}
+
+  .open-btn:hover {
+    background-color: #523c61;
 }
