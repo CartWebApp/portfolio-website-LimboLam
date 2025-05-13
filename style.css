@@ -300,3 +300,42 @@ button {
 #personalFooter {
     bottom: -13vh;
 }
+
+/* Resume */
+
+#resumeImg {
+    width: 18vw;
+}
+
+#resumeFooter {
+    bottom: -16.5vh;
+}
+
+#resumeLink {
+    margin-left: 17vw;
+    position: relative;
+    top: 13vh;
+}
+
+/* Writing */
+
+.writingImg{
+    border-radius: 50px;
+}
+
+#writingMain {
+    flex-direction: column;
+    margin-top: 4vh;
+    justify-content: space-between;
+    height: 52vh;
+
+}
+
+#writingArticle {
+    display: flex;
+    justify-content: space-around;
+}
+
+#writingFooter {
+    bottom: -11.3vh;
+}
