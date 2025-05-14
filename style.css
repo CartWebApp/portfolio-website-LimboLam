@@ -386,9 +386,9 @@ button {
 
 .close-btn {
     position: absolute;
-    top: 20px;
-    right: 25px;
-    font-size: 36px;
+    top: 2vh;
+    right: 1.5vw;
+    font-size: 2.5rem;
     color: white;
     cursor: pointer;
 }
